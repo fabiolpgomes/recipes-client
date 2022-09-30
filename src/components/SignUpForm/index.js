@@ -48,12 +48,12 @@ function SignUpForm() {
     try {
       const imgURL = await handleUpload();
       await api.post("/users/sign-up", { ...userForm, picture: imgURL });
-      toast.success("Conta criada com sucesso.");
+      toast.success("Account created.");
       navigate("/confirm-email");
     } catch (error) {
       createButton.current.disabled = false;
       console.log(error);
-      toast.error("Erro ao criar conta.");
+      toast.error("Unable to create account, check information.");
     }
   }
 
@@ -144,7 +144,7 @@ function SignUpForm() {
         </div>
 
         <button ref={createButton} type="submit" className="btn btn-primary">
-          CRIAR CONTA
+          CREATE ACCOUNT
         </button>
       </form>
     </>
