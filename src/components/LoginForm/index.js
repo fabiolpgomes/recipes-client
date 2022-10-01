@@ -41,7 +41,7 @@ function LoginForm() {
   return (
     <>
       <form onSubmit={handleSubmit}>
-        <div className="mb-3">
+        <div className="p-3 mb-2 bg-light text-dark">
           <label className="form-label" htmlFor="email">
             E-mail
           </label>
@@ -57,7 +57,7 @@ function LoginForm() {
           />
         </div>
 
-        <div className="mb-3">
+        <div className="p-3 mb-2 bg-light text-dark">
           <label className="form-label" htmlFor="password">
             Password
           </label>
