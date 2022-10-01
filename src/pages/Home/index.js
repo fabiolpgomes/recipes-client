@@ -3,17 +3,17 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <div className="container-xxl main-container">
-      <div className="container-md bg-info p-3 border border-dark rounded d-flex align-items-center">
+      <div className="container-md bg-info p-3 border border-dark rounded">
         <h2>RECIPES GOOD</h2>
         <hr className="bg-dark" />
         <div className="d-flex align-items-center justify-content-center gap-2">
           <Link to="/sign-up">
-            <button type="button" className="btn btn-primary btn-lg shadow p-3 mb-5 bg-body rounded">
+            <button type="button" className="btn btn-primary btn-lg p-3 mb-5 bg-body rounded">
               CREATE ACCOUNT
             </button>
           </Link>
           <Link to="/login">
-            <button type="button" className="btn btn-primary btn-lg shadow p-3 mb-5 bg-body rounded">
+            <button type="button" className="btn btn-primary btn-lg p-3 mb-5 bg-body rounded">
               LOGIN
             </button>
           </Link>
