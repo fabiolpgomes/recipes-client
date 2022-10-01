@@ -1,3 +1,39 @@
+# RECIPES CLIENT #1
+
+Front-end for Recipes app (**mobile** and **web**)!
+
+# About the project
+
+This project has been created in the third module at Ironhack São Paulo - Web Development Bootcamp.
+
+
+# Features
+
+- Create and Update User
+- Create and Update more than one Recipe per User 
+- Create and Update Recipe
+- Insert multiple recipes 
+
+
+# Developers GitHub
+
+- [Fabio Gomes](https://github.com/fabiolpgomes)
+
+
+# lab-recipes-express-mongo SERVER #2
+
+Back-end project for Recipes app (**mobile** and **web**)!
+
+
+## Install
+To run the application on your localhost, clone the repo and then execute the commands below:
+
+- <code>$ git clone https://github.com/fabiolpgomes/recipes-client</code>
+- <code>$ cd kols-client npm install</code>
+- <code>$ npm run dev </code>
+
+-----------------------------------------------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
