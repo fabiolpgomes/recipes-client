@@ -31,17 +31,17 @@ function LoginForm() {
       localStorage.setItem("loggedInUser", JSON.stringify(response.data));
       setLoggedInUser({ ...response.data });
       navigate("/profile");
-      toast.success("Conta logada com sucesso.");
+      toast.success("Access OK, Connected.");
     } catch (error) {
       console.log(error);
-      toast.error("Erro ao logar.");
+      toast.error("Error connecting.");
     }
   }
 
   return (
     <>
       <form onSubmit={handleSubmit}>
-        <div className="mb-2">
+        <div className="mb-3">
           <label className="form-label" htmlFor="email">
             E-mail
           </label>
@@ -57,9 +57,9 @@ function LoginForm() {
           />
         </div>
 
-        <div className="mb-4">
+        <div className="mb-3">
           <label className="form-label" htmlFor="password">
-            Senha
+            Password
           </label>
           <input
             className="form-control"
@@ -72,8 +72,8 @@ function LoginForm() {
           />
         </div>
 
-        <button type="submit" className="btn btn-primary">
-          LOGAR
+        <button type="submit" className="btn btn-light">
+          Login
         </button>
       </form>
     </>
