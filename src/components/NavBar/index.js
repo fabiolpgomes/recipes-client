@@ -42,7 +42,7 @@ function Navbar() {
                 to="/recipes"
                 className="nav-item nav-link text-decooration-none"
               >
-                Recipe
+                Recipes
               </Link>
             </li>
           </ul>
