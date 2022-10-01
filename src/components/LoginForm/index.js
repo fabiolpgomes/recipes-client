@@ -40,7 +40,7 @@ function LoginForm() {
 
   return (
     <>
-      <form onSubmit={handleSubmit}>
+      <form bg-info onSubmit={handleSubmit}>
         <div className="p-3 mb-2 bg-light text-dark">
           <label className="form-label" htmlFor="email">
             E-mail
