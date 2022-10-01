@@ -8,12 +8,12 @@ function Home() {
         <hr className="bg-dark" />
         <div className="d-flex align-items-center justify-content-center gap-2">
           <Link to="/sign-up">
-            <button type="button" className="btn btn-primary btn-lg p-3 mb-5 bg-body rounded">
+            <button type="button" className="btn btn-$red-200 btn-md p-3 mb-4 bg-body rounded">
               CREATE ACCOUNT
             </button>
           </Link>
           <Link to="/login">
-            <button type="button" className="btn btn-primary btn-lg p-3 mb-5 bg-body rounded">
+            <button type="button" className="btn btn-$red-200 btn-md p-3 mb-4 bg-body rounded">
               LOGIN
             </button>
           </Link>
