@@ -83,7 +83,7 @@ function SignUpForm() {
         </div>
         <div className="mb-2">
           <label className="form-label fw-bold" htmlFor="profilePicture">
-            Foto
+            Picture
           </label>
           <input
             className="form-control"
@@ -96,7 +96,7 @@ function SignUpForm() {
 
         <div className="mb-2">
           <label className="form-label fw-bold" htmlFor="name">
-            Nome
+            Name
           </label>
           <input
             ref={startRef}
@@ -127,7 +127,7 @@ function SignUpForm() {
 
         <div className="mb-4">
           <label className="form-label fw-bold" htmlFor="password">
-            Senha
+            Password
           </label>
           <input
             ref={passwordInput}
