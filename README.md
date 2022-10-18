@@ -12,6 +12,7 @@ In the following exercise, we will practice how to implement this by creating aw
 
 This project has been created on Ironhack Web Development Bootcamp / São Paulo - Brazil.
 
+![thai_style_chicken_noodle_soup_pieces_recipe_web](https://user-images.githubusercontent.com/23629340/38369283-ac1bda62-38e7-11e8-9c9b-d9df623f1bc3.jpg)
 
 # Features
 
