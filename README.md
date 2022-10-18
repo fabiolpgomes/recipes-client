@@ -20,7 +20,7 @@ This project has been created in the third module at Ironhack São Paulo - Web D
 - [Fabio Gomes](https://github.com/fabiolpgomes)
 
 
-# lab-recipes-express-mongo SERVER #2
+# recipes-server #2
 
 Back-end project for Recipes app (**mobile** and **web**)!
 
@@ -29,7 +29,7 @@ Back-end project for Recipes app (**mobile** and **web**)!
 To run the application on your localhost, clone the repo and then execute the commands below:
 
 - <code>$ git clone https://github.com/fabiolpgomes/recipes-client</code>
-- <code>$ cd kols-client npm install</code>
+- <code>$ cd recipes-client npm install</code>
 - <code>$ npm run dev </code>
 
 -----------------------------------------------------------------------------------
