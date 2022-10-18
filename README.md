@@ -4,7 +4,13 @@ Front-end for Recipes app (**mobile** and **web**)!
 
 # About the project
 
-This project has been created in the third module at Ironhack São Paulo - Web Development Bootcamp.
+Project developed using MERN stack;
+
+We've learned how to use Mongoose to create Schemas and then interact with our MongoDB database;
+
+In the following exercise, we will practice how to implement this by creating awesome recipes.
+
+This project has been created on Ironhack Web Development Bootcamp / São Paulo - Brazil.
 
 
 # Features
